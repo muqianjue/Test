@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    print('hello')
     return '✅ Hello, this is a test deployment!'
 
 if __name__ == '__main__':
